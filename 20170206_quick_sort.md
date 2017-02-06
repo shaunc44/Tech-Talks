@@ -11,6 +11,8 @@
 
 ###*Sources*
 
-<https://en.wikipedia.org/wiki/Quicksort> 
+<https://en.wikipedia.org/wiki/Quicksort>
+
 <http://stackoverflow.com/questions/18262306/quicksort-with-python#18262384>
+
 <https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/overview-of-quicksort>
