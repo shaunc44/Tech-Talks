@@ -14,12 +14,14 @@
 ####select_related  
 > Use *select_related* when the object that you're going to be selecting is a single object, which means a One-To-One Field or a Foreign Key  
 
-**insert one-to-one graphic here
+One-to-One Relationship:  
+![alt text](one-to-one.png "One-to-One Relationship")  
 
 ####prefetch_related  
 > Use *prefetch_related* when you're going to get a "set" of things, which entails Many-To-Many Fields or reverse ForeignKeys  
 
-**insert many-to-many graphic here
+Many-to-Many Relationship:  
+![alt text](many-to-many.jpeg "Many-to-Many Relationship")  
 
 #####*Sources:*  
 <http://stackoverflow.com/questions/31237042/whats-the-difference-between-select-related-and-prefetch-related-in-django-orm>  
