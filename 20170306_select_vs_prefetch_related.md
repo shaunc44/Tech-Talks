@@ -1,4 +1,4 @@
-##What's the difference between *select_related* and *prefetch_related* in Django?  
+#What's the difference between *select_related* and *prefetch_related* in Django?  
 
 ####select_related  
 1. only takes one query  
@@ -9,7 +9,7 @@
 2. then the results will be 'joined' by the ORM
 
 
-##When do we use one over the other?  
+#When do we use one over the other?  
 
 ####select_related  
 > Use *select_related* when the object that you're going to be selecting is a single object, which means a One-To-One Field or a Foreign Key  
