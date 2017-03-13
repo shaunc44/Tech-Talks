@@ -7,6 +7,14 @@ mouse     1    2      3
 rabbit    4    5      6
 ```
 
+```python
+df.filter(str.contains('^mouse')
+```
+```
+one  two  three
+mouse     1    2      3
+```
+
 #How do you filter if you have partial matches or substrings you're looking for?  
 
 #### select rows containing 'bbi'
