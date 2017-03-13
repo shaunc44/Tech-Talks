@@ -1,4 +1,4 @@
-#How do you filter a row of a Pandas DataFrame if you're looking for exact matches?  
+##How do you filter a row of a Pandas DataFrame if you're looking for exact matches?  
 
 ```
 >>> df
@@ -17,7 +17,7 @@ animal    one  two    three
 mouse     1    2      3
 ```
 
-#How do you filter if you have partial matches or substrings you're looking for?  
+##How do you filter if you have partial matches or substrings you're looking for?  
 
 #### select rows containing 'bbi'
 
