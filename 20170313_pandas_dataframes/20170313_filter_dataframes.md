@@ -14,9 +14,10 @@ rabbit    4    5      6
 ```python
 df.filter(like='bbi', axis=0)
 ```
+```
 one  two  three
 rabbit    4    5      6
-
+```
 
 
 #####*Sources:*  
