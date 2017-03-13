@@ -1,4 +1,4 @@
-##How do you filter a row of a Pandas DataFrame if you're looking for exact matches?  
+##How do you filter a Pandas DataFrame row if you're looking for exact matches?  
 
 ```
 >>> df
