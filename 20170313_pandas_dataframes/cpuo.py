@@ -8,7 +8,7 @@ df = pd.read_csv('cpuo.csv')
 # print ("Entire Dataframe: \n", df)
 
 # Filter Pandas Dataframe rows by exact match?
-print ( df.filter( regex='Transit$') )
+print (df[df['Precinct / Command'].str.contains("Transit")])
 
 
 # print ( df.str.match('Transit', axis=0 ) )

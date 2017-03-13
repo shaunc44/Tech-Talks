@@ -2,16 +2,18 @@
 
 ```
 >>> df
-one  two  three
+animal    one  two    three
 mouse     1    2      3
 rabbit    4    5      6
 ```
 
+#### select rows containing 'mouse'
+
 ```python
-df.filter(str.contains('^mouse')
+print (df[df['animal'].str.contains("mouse")])
 ```
 ```
-one  two  three
+animal    one  two    three
 mouse     1    2      3
 ```
 
@@ -23,7 +25,7 @@ mouse     1    2      3
 df.filter(like='bbi', axis=0)
 ```
 ```
-one  two  three
+animal    one  two    three
 rabbit    4    5      6
 ```
 
