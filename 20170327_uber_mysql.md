@@ -1,7 +1,7 @@
-##Why did Uber switch form PostgreSQL to MySQL?  
+## Why did Uber switch form PostgreSQL to MySQL?##  
 
 
-*PostgreSQL Limitations*  
+#### *PostgreSQL Limitations*  
 
   1 Inefficient architecture for writes  
     i.  problems writing data to SSD disks  
@@ -22,7 +22,7 @@
     i.  very difficult and time consuming to replicate data after an upgrade
 
 
-*MySQL Advantages*  
+### *MySQL Advantages*  
 
   1 Replication  
     i.  support different replication modes  
@@ -36,7 +36,7 @@
     i.  MySQL implements concurrent connections by spawning a thread-per-connection. This is relatively low overhead  
 
 
-#####*Sources:*  
+##### *Sources:*  
 <https://eng.uber.com/mysql-migration/>  
 <http://rhaas.blogspot.com/2016/08/ubers-move-away-from-postgresql.html>  
 <http://www.dbvisit.com/physical-vs-logical-replication/>  
