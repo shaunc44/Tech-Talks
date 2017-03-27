@@ -1,4 +1,4 @@
-## Why did Uber switch from PostgreSQL to MySQL?##  
+## Why did Uber switch from PostgreSQL to MySQL?  
 
 
 ### *PostgreSQL Limitations*  
