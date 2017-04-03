@@ -2,10 +2,13 @@
 
 
 ### *Design Patterns: Elements of Reusable Object-Oriented Software*  
+![alt text](design_patterns_cover.jpeg "Logo Title Text 1")
+
 	i.   Erich Gamma  
 	ii.  Richard Helm  
 	iii. Ralph Johnson  
 	iv.  John Vlissides  
+
 
 #### 2. Inefficient data replication  
 	i.  creates bandwith issues when replicated to multiple data centers  
