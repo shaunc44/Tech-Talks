@@ -15,6 +15,7 @@
 ### Chapters 3 - 25  
 
 **CREATIONAL** - *patterns that create objects for you, instead of instantiation*  
+
 3.  **Abstract factory pattern** groups object factories that have a common theme.  
 4.  **Builder pattern** constructs complex objects by separating construction and representation.  
 5.  **Factory method pattern** creates objects without specifying the exact class to create.  
@@ -22,6 +23,7 @@
 7.  **Singleton pattern** restricts object creation for a class to only one instance.  
 
 **STRUCTURAL** - *class and object composition; use inheritance to compose the interface*  
+
 8.  **Adapter** allows classes with incompatible interfaces to work together by wrapping its own interface around that of an already existing class.  
 9.  **Bridge** decouples an abstraction from its implementation so that the two can vary independently.  
 10. **Composite** composes zero-or-more similar objects so that they can be manipulated as one object.  
@@ -31,6 +33,7 @@
 14. **Proxy** provides a placeholder for another object to control access, reduce cost, and reduce complexity.  
 
 **BEHAVIORAL** - *concerned with communication between objects*  
+
 15. **Chain of responsibility** delegates commands to a chain of processing objects.  
 16. **Command** creates objects which encapsulate actions and parameters.  
 17. **Interpreter** implements a specialized language.  
