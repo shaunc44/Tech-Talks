@@ -5,13 +5,17 @@
 
 ### How do we use it?  
 
+```python
 $ python3 -m pdb myscript.py  
+```
 
 OR  
 
+```python
 >>> import pdb  
 >>> import myscript  
 >>> pdb.set_trace()  
+```
 
 
 ### Commands  
