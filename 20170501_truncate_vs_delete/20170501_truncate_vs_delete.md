@@ -24,7 +24,7 @@ DELETE FROM employee WHERE id = 100;
 ```
 DELETE FROM employee;  
 ```
-
+```
 +----------------------------------------+----------------------------------------------+
 |                Truncate                |                    Delete                    |
 +----------------------------------------+----------------------------------------------+
@@ -54,7 +54,7 @@ DELETE FROM employee;
 |                                        | 2) DELETE FROM table_name WHERE              |
 |                                        |    example_column_id IN (1,2,3)              |
 +----------------------------------------+----------------------------------------------+
-
+```
 
 *Keep in mind that most SQL statements vary depending on which type SQL you use*  
 
