@@ -1,13 +1,14 @@
 ## What's the difference between TRUNCATE and DELETE in SQL??  
-```
+
 The main difference between the two is space:  
+```
 1. TRUNCATE deletes all rows AND clears the space where the table was located
 2. DELETE only delete rows and does not free space  
 ```
 
 ### When to use TRUNCATE?  
 
-1. Delete all rows and free space containing table  
+1. Delete all rows, reset row identity and free space containing table  
 ```
 TRUNCATE TABLE employees;  
 ```
@@ -24,6 +25,8 @@ DELETE FROM employee WHERE id = 100;
 ```
 DELETE FROM employee;  
 ```
+
+
 ```
 +----------------------------------------+----------------------------------------------+
 |                Truncate                |                    Delete                    |
