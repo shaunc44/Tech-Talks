@@ -59,7 +59,7 @@ DELETE FROM employee;
 +----------------------------------------+----------------------------------------------+
 ```
 
-*Keep in mind that most SQL statements vary depending on which type SQL you use*  
+*Keep in mind that most SQL statements vary depending on which type of SQL you use*  
 
 
 ##### *Sources:*  
