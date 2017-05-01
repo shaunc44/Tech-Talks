@@ -1,9 +1,10 @@
 # Bubble Sort
-
+import pdb;
 num_list = [9, 22, 5, 12, 7, 6, 2, 0, 15, 4, -3, 8, 1, -8]
 
 def bubble_sort(num_list):
 	for j in range( len(num_list) - 1 ):
+		pdb.set_trace()
 		for i in range( len(num_list) - 1 ):
 			if num_list[i] > num_list[i + 1]:
 				temp = num_list[i]
@@ -13,8 +14,8 @@ def bubble_sort(num_list):
 
 
 
-import pdb;
-pdb.set_trace()
+
+
 
 
 print ("Unsorted List = ", num_list)
